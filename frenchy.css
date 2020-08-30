@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	color: #FFFFFF;
+	background-color:#26272b;
+}
+
+cursor{
+	color: red;
+}
+
+hr {
+	color:#FFFFFF;
+}
+:target {
+    border-top: 75px solid transparent;
+    margin-top: -75px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    outline: none; /* Supprimer la outline disgracieuse de Chrome */
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://lite.pubg.com/wp-content/uploads/2019/10/image-5-1499x625.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.card-img-top {
+	transition: 0.5s;
+	filter: saturate(0%);
+}
+.card-img-top:hover {
+	transition: 0.5s;
+	filter: saturate(100%);
+}
+.container {
+	/* margin-bottom: 50px; */
+}
+
+.round {
+	border-radius:10px;
+}
+
+.page-footer {
+	background-color:#202125;
+	/* padding: 0 10% 0 10%;	*/
+}
+
+.card {
+	cursor:crosshair;
+}
+
